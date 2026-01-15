@@ -1,7 +1,7 @@
 """
 Type definitions for Country Manager application.
 """
-from typing import TypedDict, Optional, List
+from typing import TypedDict, Optional, List, Tuple
 
 
 class Country(TypedDict):
@@ -17,6 +17,7 @@ class Country(TypedDict):
     postal_code_regex: str        # Postal code regex pattern
     languages: str                # Languages spoken (e.g., "ca")
     geonameid: str                # Geonames ID
+    cities: List[str]             # List of major cities
 
 
 # Field names for display and input
@@ -32,6 +33,7 @@ COUNTRY_FIELDS = [
     ("postal_code_regex", "Postal Code Regex"),
     ("languages", "Languages"),
     ("geonameid", "GeoName ID"),
+    ("cities", "Cities"),
 ]
 
 
@@ -76,4 +78,43 @@ def create_empty_country() -> Country:
         "postal_code_regex": "",
         "languages": "",
         "geonameid": "",
+        "cities": [],
     }
+
+
+def validate_country_unique(data: dict, countries: List[dict], exclude_iso: str = "") -> Tuple[bool, str]:
+    """
+    Validate that country fields are unique.
+    
+    Args:
+        data: Country data to validate
+        countries: List of existing countries
+        exclude_iso: ISO code to exclude (for edits)
+        
+    Returns:
+        Tuple of (is_valid, error_message)
+    """
+    new_iso = data.get("iso", "").upper()
+    new_iso3 = data.get("iso3", "").upper()
+    new_name = data.get("country", "").lower()
+    
+    for country in countries:
+        current_iso = country.get("iso", "").upper()
+        
+        # Skip the country being edited
+        if exclude_iso and current_iso == exclude_iso.upper():
+            continue
+        
+        # Check ISO uniqueness
+        if current_iso == new_iso:
+            return False, f"ISO code '{new_iso}' already exists"
+        
+        # Check ISO3 uniqueness
+        if country.get("iso3", "").upper() == new_iso3:
+            return False, f"ISO3 code '{new_iso3}' already exists"
+        
+        # Check country name uniqueness
+        if country.get("country", "").lower() == new_name:
+            return False, f"Country name '{data.get('country')}' already exists"
+    
+    return True, ""

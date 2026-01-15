@@ -7,6 +7,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_FILE = os.path.join(BASE_DIR, "dados.json")
 SOURCE_FILE = os.path.join(BASE_DIR, "countryInfo.txt")
+USERS_FILE = os.path.join(BASE_DIR, "users.json")
 
 # Date/Time format
 DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S"
@@ -14,7 +15,14 @@ DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S"
 # App Info
 APP_NAME = "Country CRM Manager"
 APP_VERSION = "1.1.0"
-CREATORS = ["Burak", "Duarte"]
+CREATORS = ["Burak", "Duarte", "Gökalp", "Ceren"]
+APP_INTRO = """A console application for managing country data with:
+- CRUD operations (Create, Read, Update, Delete)
+- City management for each country  
+- Filtering and searching capabilities
+- PDF report generation
+- Data import from external sources
+- Role-based access control (Super User / Guest)"""
 
 # CountryInfo.txt parsing configurations
 # Mapping column indices (from countryInfo.txt) to Country TypedDict keys

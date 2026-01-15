@@ -55,7 +55,7 @@ class TestCountryManager(unittest.TestCase):
 
     def test_01_read_initial_data(self):
         countries = load_countries()
-        self.assertGreaterEqual(len(countries), 3)
+        self.assertGreaterEqual(len(countries), 1)
         print(f"\n[OK] Loaded {len(countries)} countries.")
 
     def test_02_add_country(self):

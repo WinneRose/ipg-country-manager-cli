@@ -1,6 +1,52 @@
 {
   "countries": [
     {
+      "iso": "TR",
+      "iso3": "TUR",
+      "country": "Türkiye",
+      "tld": ".tr",
+      "currency_code": "TRY",
+      "currency_name": "Lira",
+      "phone": "90",
+      "postal_code_format": "#####",
+      "postal_code_regex": "^\\d{5}$",
+      "languages": "tr-TR",
+      "geonameid": "298795",
+      "cities": [
+        "Istanbul",
+        "Ankara",
+        "Izmir",
+        "Antalya",
+        "Bursa",
+        "Adana",
+        "Konya",
+        "Gaziantep",
+        "Mersin",
+        "Trabzon"
+      ]
+    },
+    {
+      "iso": "ES",
+      "iso3": "ESP",
+      "country": "Spain",
+      "tld": ".es",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "phone": "34",
+      "postal_code_format": "#####",
+      "postal_code_regex": "^\\d{5}$",
+      "languages": "es-ES,ca,gl,eu",
+      "geonameid": "2510769",
+      "cities": [
+        "Madrid",
+        "Barcelona",
+        "Valencia",
+        "Sevilla",
+        "Bilbao",
+        "Malaga"
+      ]
+    },
+    {
       "iso": "AD",
       "iso3": "AND",
       "country": "Andorra",
@@ -11,7 +57,8 @@
       "postal_code_format": "AD###",
       "postal_code_regex": "^(?:AD)*(\\d{3})$",
       "languages": "ca",
-      "geonameid": "3041565"
+      "geonameid": "3041565",
+      "cities": []
     },
     {
       "iso": "AE",
@@ -24,7 +71,8 @@
       "postal_code_format": "##### #####",
       "postal_code_regex": "^\\d{5}-\\d{5}$",
       "languages": "ar-AE,fa,en,hi,ur",
-      "geonameid": "290557"
+      "geonameid": "290557",
+      "cities": []
     },
     {
       "iso": "AF",
@@ -37,7 +85,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "fa-AF,ps,uz-AF,tk",
-      "geonameid": "1149361"
+      "geonameid": "1149361",
+      "cities": []
     },
     {
       "iso": "AG",
@@ -50,7 +99,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-AG",
-      "geonameid": "3576396"
+      "geonameid": "3576396",
+      "cities": []
     },
     {
       "iso": "AI",
@@ -63,7 +113,8 @@
       "postal_code_format": "AI-####",
       "postal_code_regex": "^(?:AZ)*(\\d{4})$",
       "languages": "en-AI",
-      "geonameid": "3573511"
+      "geonameid": "3573511",
+      "cities": []
     },
     {
       "iso": "AL",
@@ -76,7 +127,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "sq,el",
-      "geonameid": "783754"
+      "geonameid": "783754",
+      "cities": []
     },
     {
       "iso": "AM",
@@ -89,7 +141,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "hy",
-      "geonameid": "174982"
+      "geonameid": "174982",
+      "cities": []
     },
     {
       "iso": "AO",
@@ -102,7 +155,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "pt-AO",
-      "geonameid": "3351879"
+      "geonameid": "3351879",
+      "cities": []
     },
     {
       "iso": "AQ",
@@ -115,7 +169,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "",
-      "geonameid": "6697173"
+      "geonameid": "6697173",
+      "cities": []
     },
     {
       "iso": "AR",
@@ -128,7 +183,8 @@
       "postal_code_format": "@####@@@",
       "postal_code_regex": "^[A-Z]?\\d{4}[A-Z]{0,3}$",
       "languages": "es-AR,en,it,de,fr,gn",
-      "geonameid": "3865483"
+      "geonameid": "3865483",
+      "cities": []
     },
     {
       "iso": "AS",
@@ -141,7 +197,8 @@
       "postal_code_format": "#####-####",
       "postal_code_regex": "96799",
       "languages": "en-AS,sm,to",
-      "geonameid": "5880801"
+      "geonameid": "5880801",
+      "cities": []
     },
     {
       "iso": "AT",
@@ -154,7 +211,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "de-AT,hr,hu,sl",
-      "geonameid": "2782113"
+      "geonameid": "2782113",
+      "cities": []
     },
     {
       "iso": "AU",
@@ -167,7 +225,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "en-AU",
-      "geonameid": "2077456"
+      "geonameid": "2077456",
+      "cities": []
     },
     {
       "iso": "AW",
@@ -180,7 +239,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "nl-AW,pap,es,en",
-      "geonameid": "3577279"
+      "geonameid": "3577279",
+      "cities": []
     },
     {
       "iso": "AX",
@@ -193,7 +253,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(?:FI)*(\\d{5})$",
       "languages": "sv-AX",
-      "geonameid": "661882"
+      "geonameid": "661882",
+      "cities": []
     },
     {
       "iso": "AZ",
@@ -206,7 +267,8 @@
       "postal_code_format": "AZ ####",
       "postal_code_regex": "^(?:AZ )*(\\d{4})$",
       "languages": "az,ru,hy",
-      "geonameid": "587116"
+      "geonameid": "587116",
+      "cities": []
     },
     {
       "iso": "BA",
@@ -219,7 +281,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "bs,hr-BA,sr-BA",
-      "geonameid": "3277605"
+      "geonameid": "3277605",
+      "cities": []
     },
     {
       "iso": "BB",
@@ -232,7 +295,8 @@
       "postal_code_format": "BB#####",
       "postal_code_regex": "^(?:BB)*(\\d{5})$",
       "languages": "en-BB",
-      "geonameid": "3374084"
+      "geonameid": "3374084",
+      "cities": []
     },
     {
       "iso": "BD",
@@ -245,7 +309,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "bn-BD,en",
-      "geonameid": "1210997"
+      "geonameid": "1210997",
+      "cities": []
     },
     {
       "iso": "BE",
@@ -258,7 +323,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "nl-BE,fr-BE,de-BE",
-      "geonameid": "2802361"
+      "geonameid": "2802361",
+      "cities": []
     },
     {
       "iso": "BF",
@@ -271,7 +337,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "fr-BF,mos",
-      "geonameid": "2361809"
+      "geonameid": "2361809",
+      "cities": []
     },
     {
       "iso": "BG",
@@ -284,7 +351,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "bg,tr-BG,rom",
-      "geonameid": "732800"
+      "geonameid": "732800",
+      "cities": []
     },
     {
       "iso": "BH",
@@ -297,7 +365,8 @@
       "postal_code_format": "####|###",
       "postal_code_regex": "^(\\d{3}\\d?)$",
       "languages": "ar-BH,en,fa,ur",
-      "geonameid": "290291"
+      "geonameid": "290291",
+      "cities": []
     },
     {
       "iso": "BI",
@@ -310,7 +379,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "fr-BI,rn",
-      "geonameid": "433561"
+      "geonameid": "433561",
+      "cities": []
     },
     {
       "iso": "BJ",
@@ -323,7 +393,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "fr-BJ",
-      "geonameid": "2395170"
+      "geonameid": "2395170",
+      "cities": []
     },
     {
       "iso": "BL",
@@ -336,7 +407,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "fr",
-      "geonameid": "3578476"
+      "geonameid": "3578476",
+      "cities": []
     },
     {
       "iso": "BM",
@@ -349,7 +421,8 @@
       "postal_code_format": "@@ ##",
       "postal_code_regex": "^([A-Z]{2}\\d{2})$",
       "languages": "en-BM,pt",
-      "geonameid": "3573345"
+      "geonameid": "3573345",
+      "cities": []
     },
     {
       "iso": "BN",
@@ -362,7 +435,8 @@
       "postal_code_format": "@@####",
       "postal_code_regex": "^([A-Z]{2}\\d{4})$",
       "languages": "ms-BN,en-BN",
-      "geonameid": "1820814"
+      "geonameid": "1820814",
+      "cities": []
     },
     {
       "iso": "BO",
@@ -375,7 +449,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "es-BO,qu,ay",
-      "geonameid": "3923057"
+      "geonameid": "3923057",
+      "cities": []
     },
     {
       "iso": "BQ",
@@ -388,7 +463,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "nl,pap,en",
-      "geonameid": "7626844"
+      "geonameid": "7626844",
+      "cities": []
     },
     {
       "iso": "BR",
@@ -401,7 +477,8 @@
       "postal_code_format": "#####-###",
       "postal_code_regex": "^\\d{5}-\\d{3}$",
       "languages": "pt-BR,es,en,fr",
-      "geonameid": "3469034"
+      "geonameid": "3469034",
+      "cities": []
     },
     {
       "iso": "BS",
@@ -414,7 +491,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-BS",
-      "geonameid": "3572887"
+      "geonameid": "3572887",
+      "cities": []
     },
     {
       "iso": "BT",
@@ -427,7 +505,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "dz",
-      "geonameid": "1252634"
+      "geonameid": "1252634",
+      "cities": []
     },
     {
       "iso": "BV",
@@ -440,7 +519,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "",
-      "geonameid": "3371123"
+      "geonameid": "3371123",
+      "cities": []
     },
     {
       "iso": "BW",
@@ -453,7 +533,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-BW,tn-BW",
-      "geonameid": "933860"
+      "geonameid": "933860",
+      "cities": []
     },
     {
       "iso": "BY",
@@ -466,7 +547,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "be,ru",
-      "geonameid": "630336"
+      "geonameid": "630336",
+      "cities": []
     },
     {
       "iso": "BZ",
@@ -479,7 +561,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-BZ,es",
-      "geonameid": "3582678"
+      "geonameid": "3582678",
+      "cities": []
     },
     {
       "iso": "CA",
@@ -492,7 +575,8 @@
       "postal_code_format": "@#@ #@#",
       "postal_code_regex": "^([ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJKLMNPRSTVWXYZ]) ?(\\d[ABCEGHJKLMNPRSTVWXYZ]\\d)$",
       "languages": "en-CA,fr-CA,iu",
-      "geonameid": "6251999"
+      "geonameid": "6251999",
+      "cities": []
     },
     {
       "iso": "CC",
@@ -505,7 +589,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "ms-CC,en",
-      "geonameid": "1547376"
+      "geonameid": "1547376",
+      "cities": []
     },
     {
       "iso": "CD",
@@ -518,7 +603,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "fr-CD,ln,ktu,kg,sw,lua",
-      "geonameid": "203312"
+      "geonameid": "203312",
+      "cities": []
     },
     {
       "iso": "CF",
@@ -531,7 +617,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "fr-CF,sg,ln,kg",
-      "geonameid": "239880"
+      "geonameid": "239880",
+      "cities": []
     },
     {
       "iso": "CG",
@@ -544,7 +631,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "fr-CG,kg,ln-CG",
-      "geonameid": "2260494"
+      "geonameid": "2260494",
+      "cities": []
     },
     {
       "iso": "CH",
@@ -557,7 +645,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "de-CH,fr-CH,it-CH,rm",
-      "geonameid": "2658434"
+      "geonameid": "2658434",
+      "cities": []
     },
     {
       "iso": "CI",
@@ -570,7 +659,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "fr-CI",
-      "geonameid": "2287781"
+      "geonameid": "2287781",
+      "cities": []
     },
     {
       "iso": "CK",
@@ -583,7 +673,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-CK,mi",
-      "geonameid": "1899402"
+      "geonameid": "1899402",
+      "cities": []
     },
     {
       "iso": "CL",
@@ -596,7 +687,8 @@
       "postal_code_format": "#######",
       "postal_code_regex": "^(\\d{7})$",
       "languages": "es-CL",
-      "geonameid": "3895114"
+      "geonameid": "3895114",
+      "cities": []
     },
     {
       "iso": "CM",
@@ -609,7 +701,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-CM,fr-CM",
-      "geonameid": "2233387"
+      "geonameid": "2233387",
+      "cities": []
     },
     {
       "iso": "CN",
@@ -622,7 +715,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "zh-CN,yue,wuu,dta,ug,za",
-      "geonameid": "1814991"
+      "geonameid": "1814991",
+      "cities": []
     },
     {
       "iso": "CO",
@@ -635,7 +729,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "es-CO",
-      "geonameid": "3686110"
+      "geonameid": "3686110",
+      "cities": []
     },
     {
       "iso": "CR",
@@ -648,7 +743,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "es-CR,en",
-      "geonameid": "3624060"
+      "geonameid": "3624060",
+      "cities": []
     },
     {
       "iso": "CU",
@@ -661,7 +757,8 @@
       "postal_code_format": "CP #####",
       "postal_code_regex": "^(?:CP)*(\\d{5})$",
       "languages": "es-CU,pap",
-      "geonameid": "3562981"
+      "geonameid": "3562981",
+      "cities": []
     },
     {
       "iso": "CV",
@@ -674,7 +771,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "pt-CV",
-      "geonameid": "3374766"
+      "geonameid": "3374766",
+      "cities": []
     },
     {
       "iso": "CW",
@@ -687,7 +785,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "nl,pap",
-      "geonameid": "7626836"
+      "geonameid": "7626836",
+      "cities": []
     },
     {
       "iso": "CX",
@@ -700,7 +799,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "en,zh,ms-CX",
-      "geonameid": "2078138"
+      "geonameid": "2078138",
+      "cities": []
     },
     {
       "iso": "CY",
@@ -713,7 +813,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "el-CY,tr-CY,en",
-      "geonameid": "146669"
+      "geonameid": "146669",
+      "cities": []
     },
     {
       "iso": "CZ",
@@ -726,7 +827,8 @@
       "postal_code_format": "### ##",
       "postal_code_regex": "^\\d{3}\\s?\\d{2}$",
       "languages": "cs,sk",
-      "geonameid": "3077311"
+      "geonameid": "3077311",
+      "cities": []
     },
     {
       "iso": "DE",
@@ -739,7 +841,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "de",
-      "geonameid": "2921044"
+      "geonameid": "2921044",
+      "cities": []
     },
     {
       "iso": "DJ",
@@ -752,7 +855,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "fr-DJ,ar,so-DJ,aa",
-      "geonameid": "223816"
+      "geonameid": "223816",
+      "cities": []
     },
     {
       "iso": "DK",
@@ -765,7 +869,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "da-DK,en,fo,de-DK",
-      "geonameid": "2623032"
+      "geonameid": "2623032",
+      "cities": []
     },
     {
       "iso": "DM",
@@ -778,7 +883,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-DM",
-      "geonameid": "3575830"
+      "geonameid": "3575830",
+      "cities": []
     },
     {
       "iso": "DO",
@@ -791,7 +897,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "es-DO",
-      "geonameid": "3508796"
+      "geonameid": "3508796",
+      "cities": []
     },
     {
       "iso": "DZ",
@@ -804,7 +911,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "ar-DZ",
-      "geonameid": "2589581"
+      "geonameid": "2589581",
+      "cities": []
     },
     {
       "iso": "EC",
@@ -817,7 +925,8 @@
       "postal_code_format": "@####@",
       "postal_code_regex": "^([a-zA-Z]\\d{4}[a-zA-Z])$",
       "languages": "es-EC",
-      "geonameid": "3658394"
+      "geonameid": "3658394",
+      "cities": []
     },
     {
       "iso": "EE",
@@ -830,7 +939,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "et,ru",
-      "geonameid": "453733"
+      "geonameid": "453733",
+      "cities": []
     },
     {
       "iso": "EG",
@@ -843,7 +953,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "ar-EG,en,fr",
-      "geonameid": "357994"
+      "geonameid": "357994",
+      "cities": []
     },
     {
       "iso": "EH",
@@ -856,7 +967,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "ar,mey",
-      "geonameid": "2461445"
+      "geonameid": "2461445",
+      "cities": []
     },
     {
       "iso": "ER",
@@ -869,20 +981,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "aa-ER,ar,tig,kun,ti-ER",
-      "geonameid": "338010"
-    },
-    {
-      "iso": "ES",
-      "iso3": "ESP",
-      "country": "Spain",
-      "tld": ".es",
-      "currency_code": "EUR",
-      "currency_name": "Euro",
-      "phone": "34",
-      "postal_code_format": "#####",
-      "postal_code_regex": "^(\\d{5})$",
-      "languages": "es-ES,ca,gl,eu,oc",
-      "geonameid": "2510769"
+      "geonameid": "338010",
+      "cities": []
     },
     {
       "iso": "ET",
@@ -895,7 +995,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "am,en-ET,om-ET,ti-ET,so-ET,sid",
-      "geonameid": "337996"
+      "geonameid": "337996",
+      "cities": []
     },
     {
       "iso": "FI",
@@ -908,7 +1009,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(?:FI)*(\\d{5})$",
       "languages": "fi-FI,sv-FI,smn",
-      "geonameid": "660013"
+      "geonameid": "660013",
+      "cities": []
     },
     {
       "iso": "FJ",
@@ -921,7 +1023,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-FJ,fj",
-      "geonameid": "2205218"
+      "geonameid": "2205218",
+      "cities": []
     },
     {
       "iso": "FK",
@@ -934,7 +1037,8 @@
       "postal_code_format": "FIQQ 1ZZ",
       "postal_code_regex": "FIQQ 1ZZ",
       "languages": "en-FK",
-      "geonameid": "3474414"
+      "geonameid": "3474414",
+      "cities": []
     },
     {
       "iso": "FM",
@@ -947,7 +1051,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "en-FM,chk,pon,yap,kos,uli,woe,nkr,kpg",
-      "geonameid": "2081918"
+      "geonameid": "2081918",
+      "cities": []
     },
     {
       "iso": "FO",
@@ -960,7 +1065,8 @@
       "postal_code_format": "###",
       "postal_code_regex": "^(?:FO)*(\\d{3})$",
       "languages": "fo,da-FO",
-      "geonameid": "2622320"
+      "geonameid": "2622320",
+      "cities": []
     },
     {
       "iso": "FR",
@@ -973,7 +1079,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "fr-FR,frp,br,co,ca,eu,oc",
-      "geonameid": "3017382"
+      "geonameid": "3017382",
+      "cities": []
     },
     {
       "iso": "GA",
@@ -986,7 +1093,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "fr-GA",
-      "geonameid": "2400553"
+      "geonameid": "2400553",
+      "cities": []
     },
     {
       "iso": "GB",
@@ -999,7 +1107,8 @@
       "postal_code_format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
       "postal_code_regex": "^([Gg][Ii][Rr]\\s?0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z]))))\\s?[0-9][A-Za-z]{2})$",
       "languages": "en-GB,cy-GB,gd",
-      "geonameid": "2635167"
+      "geonameid": "2635167",
+      "cities": []
     },
     {
       "iso": "GD",
@@ -1012,7 +1121,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-GD",
-      "geonameid": "3580239"
+      "geonameid": "3580239",
+      "cities": []
     },
     {
       "iso": "GE",
@@ -1025,7 +1135,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "ka,ru,hy,az",
-      "geonameid": "614540"
+      "geonameid": "614540",
+      "cities": []
     },
     {
       "iso": "GF",
@@ -1038,7 +1149,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^((97|98)3\\d{2})$",
       "languages": "fr-GF",
-      "geonameid": "3381670"
+      "geonameid": "3381670",
+      "cities": []
     },
     {
       "iso": "GG",
@@ -1051,7 +1163,8 @@
       "postal_code_format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
       "postal_code_regex": "^((?:(?:[A-PR-UWYZ][A-HK-Y]\\d[ABEHMNPRV-Y0-9]|[A-PR-UWYZ]\\d[A-HJKPS-UW0-9])\\s\\d[ABD-HJLNP-UW-Z]{2})|GIR\\s?0AA)$",
       "languages": "en,nrf",
-      "geonameid": "3042362"
+      "geonameid": "3042362",
+      "cities": []
     },
     {
       "iso": "GH",
@@ -1064,7 +1177,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-GH,ak,ee,tw",
-      "geonameid": "2300660"
+      "geonameid": "2300660",
+      "cities": []
     },
     {
       "iso": "GI",
@@ -1077,7 +1191,8 @@
       "postal_code_format": "GX11 1AA",
       "postal_code_regex": "GX11 1AA",
       "languages": "en-GI,es,it,pt",
-      "geonameid": "2411586"
+      "geonameid": "2411586",
+      "cities": []
     },
     {
       "iso": "GL",
@@ -1090,7 +1205,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "kl,da-GL,en",
-      "geonameid": "3425505"
+      "geonameid": "3425505",
+      "cities": []
     },
     {
       "iso": "GM",
@@ -1103,7 +1219,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-GM,mnk,wof,wo,ff",
-      "geonameid": "2413451"
+      "geonameid": "2413451",
+      "cities": []
     },
     {
       "iso": "GN",
@@ -1116,7 +1233,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "fr-GN",
-      "geonameid": "2420477"
+      "geonameid": "2420477",
+      "cities": []
     },
     {
       "iso": "GP",
@@ -1129,7 +1247,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^((97|98)\\d{3})$",
       "languages": "fr-GP",
-      "geonameid": "3579143"
+      "geonameid": "3579143",
+      "cities": []
     },
     {
       "iso": "GQ",
@@ -1142,7 +1261,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "es-GQ,fr,pt",
-      "geonameid": "2309096"
+      "geonameid": "2309096",
+      "cities": []
     },
     {
       "iso": "GR",
@@ -1155,7 +1275,8 @@
       "postal_code_format": "### ##",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "el-GR,en,fr",
-      "geonameid": "390903"
+      "geonameid": "390903",
+      "cities": []
     },
     {
       "iso": "GS",
@@ -1168,7 +1289,8 @@
       "postal_code_format": "SIQQ 1ZZ",
       "postal_code_regex": "SIQQ 1ZZ",
       "languages": "en",
-      "geonameid": "3474415"
+      "geonameid": "3474415",
+      "cities": []
     },
     {
       "iso": "GT",
@@ -1181,7 +1303,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "es-GT",
-      "geonameid": "3595528"
+      "geonameid": "3595528",
+      "cities": []
     },
     {
       "iso": "GU",
@@ -1194,7 +1317,8 @@
       "postal_code_format": "969##",
       "postal_code_regex": "^(969\\d{2})$",
       "languages": "en-GU,ch-GU",
-      "geonameid": "4043988"
+      "geonameid": "4043988",
+      "cities": []
     },
     {
       "iso": "GW",
@@ -1207,7 +1331,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "pt-GW,pov",
-      "geonameid": "2372248"
+      "geonameid": "2372248",
+      "cities": []
     },
     {
       "iso": "GY",
@@ -1220,7 +1345,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-GY",
-      "geonameid": "3378535"
+      "geonameid": "3378535",
+      "cities": []
     },
     {
       "iso": "HK",
@@ -1233,7 +1359,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "zh-HK,yue,zh,en",
-      "geonameid": "1819730"
+      "geonameid": "1819730",
+      "cities": []
     },
     {
       "iso": "HM",
@@ -1246,7 +1373,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "",
-      "geonameid": "1547314"
+      "geonameid": "1547314",
+      "cities": []
     },
     {
       "iso": "HN",
@@ -1259,7 +1387,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "es-HN,cab,miq",
-      "geonameid": "3608932"
+      "geonameid": "3608932",
+      "cities": []
     },
     {
       "iso": "HR",
@@ -1272,7 +1401,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(?:HR)*(\\d{5})$",
       "languages": "hr-HR,sr",
-      "geonameid": "3202326"
+      "geonameid": "3202326",
+      "cities": []
     },
     {
       "iso": "HT",
@@ -1285,7 +1415,8 @@
       "postal_code_format": "HT####",
       "postal_code_regex": "^(?:HT)*(\\d{4})$",
       "languages": "ht,fr-HT",
-      "geonameid": "3723988"
+      "geonameid": "3723988",
+      "cities": []
     },
     {
       "iso": "HU",
@@ -1298,7 +1429,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "hu-HU",
-      "geonameid": "719819"
+      "geonameid": "719819",
+      "cities": []
     },
     {
       "iso": "ID",
@@ -1311,7 +1443,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "id,en,nl,jv",
-      "geonameid": "1643084"
+      "geonameid": "1643084",
+      "cities": []
     },
     {
       "iso": "IE",
@@ -1324,7 +1457,8 @@
       "postal_code_format": "@@@ @@@@",
       "postal_code_regex": "^(D6W|[AC-FHKNPRTV-Y][0-9]{2})\\s?([AC-FHKNPRTV-Y0-9]{4})",
       "languages": "en-IE,ga-IE",
-      "geonameid": "2963597"
+      "geonameid": "2963597",
+      "cities": []
     },
     {
       "iso": "IL",
@@ -1337,7 +1471,8 @@
       "postal_code_format": "#######",
       "postal_code_regex": "^(\\d{7}|\\d{5})$",
       "languages": "he,ar-IL,en-IL,",
-      "geonameid": "294640"
+      "geonameid": "294640",
+      "cities": []
     },
     {
       "iso": "IM",
@@ -1350,7 +1485,8 @@
       "postal_code_format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
       "postal_code_regex": "^((?:(?:[A-PR-UWYZ][A-HK-Y]\\d[ABEHMNPRV-Y0-9]|[A-PR-UWYZ]\\d[A-HJKPS-UW0-9])\\s\\d[ABD-HJLNP-UW-Z]{2})|GIR\\s?0AA)$",
       "languages": "en,gv",
-      "geonameid": "3042225"
+      "geonameid": "3042225",
+      "cities": []
     },
     {
       "iso": "IN",
@@ -1363,7 +1499,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "en-IN,hi,bn,te,mr,ta,ur,gu,kn,ml,or,pa,as,bh,sat,ks,ne,sd,kok,doi,mni,sit,sa,fr,lus,inc",
-      "geonameid": "1269750"
+      "geonameid": "1269750",
+      "cities": []
     },
     {
       "iso": "IO",
@@ -1376,7 +1513,8 @@
       "postal_code_format": "BBND 1ZZ",
       "postal_code_regex": "BBND 1ZZ",
       "languages": "en-IO",
-      "geonameid": "1282588"
+      "geonameid": "1282588",
+      "cities": []
     },
     {
       "iso": "IQ",
@@ -1389,7 +1527,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "ar-IQ,ku,hy",
-      "geonameid": "99237"
+      "geonameid": "99237",
+      "cities": []
     },
     {
       "iso": "IR",
@@ -1402,7 +1541,8 @@
       "postal_code_format": "##########",
       "postal_code_regex": "^(\\d{10})$",
       "languages": "fa-IR,ku",
-      "geonameid": "130758"
+      "geonameid": "130758",
+      "cities": []
     },
     {
       "iso": "IS",
@@ -1415,7 +1555,8 @@
       "postal_code_format": "###",
       "postal_code_regex": "^(\\d{3})$",
       "languages": "is,en,de,da,sv,no",
-      "geonameid": "2629691"
+      "geonameid": "2629691",
+      "cities": []
     },
     {
       "iso": "IT",
@@ -1428,7 +1569,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "it-IT,de-IT,fr-IT,sc,ca,co,sl",
-      "geonameid": "3175395"
+      "geonameid": "3175395",
+      "cities": []
     },
     {
       "iso": "JE",
@@ -1441,7 +1583,8 @@
       "postal_code_format": "@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA",
       "postal_code_regex": "^((?:(?:[A-PR-UWYZ][A-HK-Y]\\d[ABEHMNPRV-Y0-9]|[A-PR-UWYZ]\\d[A-HJKPS-UW0-9])\\s\\d[ABD-HJLNP-UW-Z]{2})|GIR\\s?0AA)$",
       "languages": "en,fr,nrf",
-      "geonameid": "3042142"
+      "geonameid": "3042142",
+      "cities": []
     },
     {
       "iso": "JM",
@@ -1454,7 +1597,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-JM",
-      "geonameid": "3489940"
+      "geonameid": "3489940",
+      "cities": []
     },
     {
       "iso": "JO",
@@ -1467,7 +1611,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "ar-JO,en",
-      "geonameid": "248816"
+      "geonameid": "248816",
+      "cities": []
     },
     {
       "iso": "JP",
@@ -1480,7 +1625,8 @@
       "postal_code_format": "###-####",
       "postal_code_regex": "^\\d{3}-\\d{4}$",
       "languages": "ja",
-      "geonameid": "1861060"
+      "geonameid": "1861060",
+      "cities": []
     },
     {
       "iso": "KE",
@@ -1493,7 +1639,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "en-KE,sw-KE",
-      "geonameid": "192950"
+      "geonameid": "192950",
+      "cities": []
     },
     {
       "iso": "KG",
@@ -1506,7 +1653,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "ky,uz,ru",
-      "geonameid": "1527747"
+      "geonameid": "1527747",
+      "cities": []
     },
     {
       "iso": "KH",
@@ -1519,7 +1667,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "km,fr,en",
-      "geonameid": "1831722"
+      "geonameid": "1831722",
+      "cities": []
     },
     {
       "iso": "KI",
@@ -1532,7 +1681,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-KI,gil",
-      "geonameid": "4030945"
+      "geonameid": "4030945",
+      "cities": []
     },
     {
       "iso": "KM",
@@ -1545,7 +1695,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "ar,fr-KM",
-      "geonameid": "921929"
+      "geonameid": "921929",
+      "cities": []
     },
     {
       "iso": "KN",
@@ -1558,7 +1709,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-KN",
-      "geonameid": "3575174"
+      "geonameid": "3575174",
+      "cities": []
     },
     {
       "iso": "KP",
@@ -1571,7 +1723,8 @@
       "postal_code_format": "###-###",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "ko-KP",
-      "geonameid": "1873107"
+      "geonameid": "1873107",
+      "cities": []
     },
     {
       "iso": "KR",
@@ -1584,7 +1737,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "ko-KR,en",
-      "geonameid": "1835841"
+      "geonameid": "1835841",
+      "cities": []
     },
     {
       "iso": "XK",
@@ -1597,7 +1751,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "sq,sr",
-      "geonameid": "831053"
+      "geonameid": "831053",
+      "cities": []
     },
     {
       "iso": "KW",
@@ -1610,7 +1765,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "ar-KW,en",
-      "geonameid": "285570"
+      "geonameid": "285570",
+      "cities": []
     },
     {
       "iso": "KY",
@@ -1623,7 +1779,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-KY",
-      "geonameid": "3580718"
+      "geonameid": "3580718",
+      "cities": []
     },
     {
       "iso": "KZ",
@@ -1636,7 +1793,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "kk,ru",
-      "geonameid": "1522867"
+      "geonameid": "1522867",
+      "cities": []
     },
     {
       "iso": "LA",
@@ -1649,7 +1807,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "lo,fr,en",
-      "geonameid": "1655842"
+      "geonameid": "1655842",
+      "cities": []
     },
     {
       "iso": "LB",
@@ -1662,7 +1821,8 @@
       "postal_code_format": "#### ####|####",
       "postal_code_regex": "^(\\d{4}(\\d{4})?)$",
       "languages": "ar-LB,fr-LB,en,hy",
-      "geonameid": "272103"
+      "geonameid": "272103",
+      "cities": []
     },
     {
       "iso": "LC",
@@ -1675,7 +1835,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-LC",
-      "geonameid": "3576468"
+      "geonameid": "3576468",
+      "cities": []
     },
     {
       "iso": "LI",
@@ -1688,7 +1849,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "de-LI",
-      "geonameid": "3042058"
+      "geonameid": "3042058",
+      "cities": []
     },
     {
       "iso": "LK",
@@ -1701,7 +1863,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "si,ta,en",
-      "geonameid": "1227603"
+      "geonameid": "1227603",
+      "cities": []
     },
     {
       "iso": "LR",
@@ -1714,7 +1877,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "en-LR",
-      "geonameid": "2275384"
+      "geonameid": "2275384",
+      "cities": []
     },
     {
       "iso": "LS",
@@ -1727,7 +1891,8 @@
       "postal_code_format": "###",
       "postal_code_regex": "^(\\d{3})$",
       "languages": "en-LS,st,zu,xh",
-      "geonameid": "932692"
+      "geonameid": "932692",
+      "cities": []
     },
     {
       "iso": "LT",
@@ -1740,7 +1905,8 @@
       "postal_code_format": "LT-#####",
       "postal_code_regex": "^(?:LT)*(\\d{5})$",
       "languages": "lt,ru,pl",
-      "geonameid": "597427"
+      "geonameid": "597427",
+      "cities": []
     },
     {
       "iso": "LU",
@@ -1753,7 +1919,8 @@
       "postal_code_format": "L-####",
       "postal_code_regex": "^(?:L-)?\\d{4}$",
       "languages": "lb,de-LU,fr-LU",
-      "geonameid": "2960313"
+      "geonameid": "2960313",
+      "cities": []
     },
     {
       "iso": "LV",
@@ -1766,7 +1933,8 @@
       "postal_code_format": "LV-####",
       "postal_code_regex": "^(?:LV)*(\\d{4})$",
       "languages": "lv,ru,lt",
-      "geonameid": "458258"
+      "geonameid": "458258",
+      "cities": []
     },
     {
       "iso": "LY",
@@ -1779,7 +1947,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "ar-LY,it,en",
-      "geonameid": "2215636"
+      "geonameid": "2215636",
+      "cities": []
     },
     {
       "iso": "MA",
@@ -1792,7 +1961,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "ar-MA,ber,fr",
-      "geonameid": "2542007"
+      "geonameid": "2542007",
+      "cities": []
     },
     {
       "iso": "MC",
@@ -1805,7 +1975,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "fr-MC,en,it",
-      "geonameid": "2993457"
+      "geonameid": "2993457",
+      "cities": []
     },
     {
       "iso": "MD",
@@ -1818,7 +1989,8 @@
       "postal_code_format": "MD-####",
       "postal_code_regex": "^MD-\\d{4}$",
       "languages": "ro,ru,gag,tr",
-      "geonameid": "617790"
+      "geonameid": "617790",
+      "cities": []
     },
     {
       "iso": "ME",
@@ -1831,7 +2003,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "sr,hu,bs,sq,hr,rom",
-      "geonameid": "3194884"
+      "geonameid": "3194884",
+      "cities": []
     },
     {
       "iso": "MF",
@@ -1844,7 +2017,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "fr",
-      "geonameid": "3578421"
+      "geonameid": "3578421",
+      "cities": []
     },
     {
       "iso": "MG",
@@ -1857,7 +2031,8 @@
       "postal_code_format": "###",
       "postal_code_regex": "^(\\d{3})$",
       "languages": "fr-MG,mg",
-      "geonameid": "1062947"
+      "geonameid": "1062947",
+      "cities": []
     },
     {
       "iso": "MH",
@@ -1870,7 +2045,8 @@
       "postal_code_format": "#####-####",
       "postal_code_regex": "^969\\d{2}(-\\d{4})$",
       "languages": "mh,en-MH",
-      "geonameid": "2080185"
+      "geonameid": "2080185",
+      "cities": []
     },
     {
       "iso": "MK",
@@ -1883,7 +2059,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "mk,sq,tr,rmm,sr",
-      "geonameid": "718075"
+      "geonameid": "718075",
+      "cities": []
     },
     {
       "iso": "ML",
@@ -1896,7 +2073,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "fr-ML,bm",
-      "geonameid": "2453866"
+      "geonameid": "2453866",
+      "cities": []
     },
     {
       "iso": "MM",
@@ -1909,7 +2087,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "my",
-      "geonameid": "1327865"
+      "geonameid": "1327865",
+      "cities": []
     },
     {
       "iso": "MN",
@@ -1922,7 +2101,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "mn,ru",
-      "geonameid": "2029969"
+      "geonameid": "2029969",
+      "cities": []
     },
     {
       "iso": "MO",
@@ -1935,7 +2115,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "zh,zh-MO,pt",
-      "geonameid": "1821275"
+      "geonameid": "1821275",
+      "cities": []
     },
     {
       "iso": "MP",
@@ -1948,7 +2129,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^9695\\d{1}$",
       "languages": "fil,tl,zh,ch-MP,en-MP",
-      "geonameid": "4041468"
+      "geonameid": "4041468",
+      "cities": []
     },
     {
       "iso": "MQ",
@@ -1961,7 +2143,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "fr-MQ",
-      "geonameid": "3570311"
+      "geonameid": "3570311",
+      "cities": []
     },
     {
       "iso": "MR",
@@ -1974,7 +2157,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "ar-MR,fuc,snk,fr,mey,wo",
-      "geonameid": "2378080"
+      "geonameid": "2378080",
+      "cities": []
     },
     {
       "iso": "MS",
@@ -1987,7 +2171,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-MS",
-      "geonameid": "3578097"
+      "geonameid": "3578097",
+      "cities": []
     },
     {
       "iso": "MT",
@@ -2000,7 +2185,8 @@
       "postal_code_format": "@@@ ####",
       "postal_code_regex": "^[A-Z]{3}\\s?\\d{4}$",
       "languages": "mt,en-MT",
-      "geonameid": "2562770"
+      "geonameid": "2562770",
+      "cities": []
     },
     {
       "iso": "MU",
@@ -2013,7 +2199,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-MU,bho,fr",
-      "geonameid": "934292"
+      "geonameid": "934292",
+      "cities": []
     },
     {
       "iso": "MV",
@@ -2026,7 +2213,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "dv,en",
-      "geonameid": "1282028"
+      "geonameid": "1282028",
+      "cities": []
     },
     {
       "iso": "MW",
@@ -2039,7 +2227,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "ny,yao,tum,swk",
-      "geonameid": "927384"
+      "geonameid": "927384",
+      "cities": []
     },
     {
       "iso": "MX",
@@ -2052,7 +2241,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "es-MX",
-      "geonameid": "3996063"
+      "geonameid": "3996063",
+      "cities": []
     },
     {
       "iso": "MY",
@@ -2065,7 +2255,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "ms-MY,en,zh,ta,te,ml,pa,th",
-      "geonameid": "1733045"
+      "geonameid": "1733045",
+      "cities": []
     },
     {
       "iso": "MZ",
@@ -2078,7 +2269,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "pt-MZ,vmw",
-      "geonameid": "1036973"
+      "geonameid": "1036973",
+      "cities": []
     },
     {
       "iso": "NA",
@@ -2091,7 +2283,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-NA,af,de,hz,naq",
-      "geonameid": "3355338"
+      "geonameid": "3355338",
+      "cities": []
     },
     {
       "iso": "NC",
@@ -2104,7 +2297,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "fr-NC",
-      "geonameid": "2139685"
+      "geonameid": "2139685",
+      "cities": []
     },
     {
       "iso": "NE",
@@ -2117,7 +2311,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "fr-NE,ha,kr,dje",
-      "geonameid": "2440476"
+      "geonameid": "2440476",
+      "cities": []
     },
     {
       "iso": "NF",
@@ -2130,7 +2325,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "en-NF",
-      "geonameid": "2155115"
+      "geonameid": "2155115",
+      "cities": []
     },
     {
       "iso": "NG",
@@ -2143,7 +2339,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "en-NG,ha,yo,ig,ff",
-      "geonameid": "2328926"
+      "geonameid": "2328926",
+      "cities": []
     },
     {
       "iso": "NI",
@@ -2156,7 +2353,8 @@
       "postal_code_format": "###-###-#",
       "postal_code_regex": "^(\\d{7})$",
       "languages": "es-NI,en",
-      "geonameid": "3617476"
+      "geonameid": "3617476",
+      "cities": []
     },
     {
       "iso": "NL",
@@ -2169,7 +2367,8 @@
       "postal_code_format": "#### @@",
       "postal_code_regex": "^(\\d{4}\\s?[a-zA-Z]{2})$",
       "languages": "nl-NL,fy-NL",
-      "geonameid": "2750405"
+      "geonameid": "2750405",
+      "cities": []
     },
     {
       "iso": "NO",
@@ -2182,7 +2381,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "no,nb,nn,se,fi",
-      "geonameid": "3144096"
+      "geonameid": "3144096",
+      "cities": []
     },
     {
       "iso": "NP",
@@ -2195,7 +2395,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "ne,en",
-      "geonameid": "1282988"
+      "geonameid": "1282988",
+      "cities": []
     },
     {
       "iso": "NR",
@@ -2208,7 +2409,8 @@
       "postal_code_format": "NRU68",
       "postal_code_regex": "NRU68",
       "languages": "na,en-NR",
-      "geonameid": "2110425"
+      "geonameid": "2110425",
+      "cities": []
     },
     {
       "iso": "NU",
@@ -2221,7 +2423,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "niu,en-NU",
-      "geonameid": "4036232"
+      "geonameid": "4036232",
+      "cities": []
     },
     {
       "iso": "NZ",
@@ -2234,7 +2437,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "en-NZ,mi",
-      "geonameid": "2186224"
+      "geonameid": "2186224",
+      "cities": []
     },
     {
       "iso": "OM",
@@ -2247,7 +2451,8 @@
       "postal_code_format": "###",
       "postal_code_regex": "^(\\d{3})$",
       "languages": "ar-OM,en,bal,ur",
-      "geonameid": "286963"
+      "geonameid": "286963",
+      "cities": []
     },
     {
       "iso": "PA",
@@ -2260,7 +2465,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "es-PA,en",
-      "geonameid": "3703430"
+      "geonameid": "3703430",
+      "cities": []
     },
     {
       "iso": "PE",
@@ -2273,7 +2479,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "es-PE,qu,ay",
-      "geonameid": "3932488"
+      "geonameid": "3932488",
+      "cities": []
     },
     {
       "iso": "PF",
@@ -2286,7 +2493,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^((97|98)7\\d{2})$",
       "languages": "fr-PF,ty",
-      "geonameid": "4030656"
+      "geonameid": "4030656",
+      "cities": []
     },
     {
       "iso": "PG",
@@ -2299,7 +2507,8 @@
       "postal_code_format": "###",
       "postal_code_regex": "^(\\d{3})$",
       "languages": "en-PG,ho,meu,tpi",
-      "geonameid": "2088628"
+      "geonameid": "2088628",
+      "cities": []
     },
     {
       "iso": "PH",
@@ -2312,7 +2521,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "tl,en-PH,fil,ceb,ilo,hil,war,pam,bik,bcl,pag,mrw,tsg,mdh,cbk,krj,sgd,msb,akl,ibg,yka,mta,abx",
-      "geonameid": "1694008"
+      "geonameid": "1694008",
+      "cities": []
     },
     {
       "iso": "PK",
@@ -2325,7 +2535,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "ur-PK,en-PK,pa,sd,ps,brh",
-      "geonameid": "1168579"
+      "geonameid": "1168579",
+      "cities": []
     },
     {
       "iso": "PL",
@@ -2338,7 +2549,8 @@
       "postal_code_format": "##-###",
       "postal_code_regex": "^\\d{2}-\\d{3}$",
       "languages": "pl",
-      "geonameid": "798544"
+      "geonameid": "798544",
+      "cities": []
     },
     {
       "iso": "PM",
@@ -2351,7 +2563,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(97500)$",
       "languages": "fr-PM",
-      "geonameid": "3424932"
+      "geonameid": "3424932",
+      "cities": []
     },
     {
       "iso": "PN",
@@ -2364,7 +2577,8 @@
       "postal_code_format": "PCRN 1ZZ",
       "postal_code_regex": "PCRN 1ZZ",
       "languages": "en-PN",
-      "geonameid": "4030699"
+      "geonameid": "4030699",
+      "cities": []
     },
     {
       "iso": "PR",
@@ -2377,7 +2591,8 @@
       "postal_code_format": "#####-####",
       "postal_code_regex": "^00[679]\\d{2}(?:-\\d{4})?$",
       "languages": "en-PR,es-PR",
-      "geonameid": "4566966"
+      "geonameid": "4566966",
+      "cities": []
     },
     {
       "iso": "PS",
@@ -2390,20 +2605,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "ar-PS",
-      "geonameid": "6254930"
-    },
-    {
-      "iso": "PT",
-      "iso3": "PRT",
-      "country": "Portugal",
-      "tld": ".pt",
-      "currency_code": "EUR",
-      "currency_name": "Euro",
-      "phone": "351",
-      "postal_code_format": "####-###",
-      "postal_code_regex": "^\\d{4}-\\d{3}\\s?[a-zA-Z]{0,25}$",
-      "languages": "pt-PT,mwl",
-      "geonameid": "2264397"
+      "geonameid": "6254930",
+      "cities": []
     },
     {
       "iso": "PW",
@@ -2416,7 +2619,8 @@
       "postal_code_format": "96940",
       "postal_code_regex": "^(96940)$",
       "languages": "pau,sov,en-PW,tox,ja,fil,zh",
-      "geonameid": "1559582"
+      "geonameid": "1559582",
+      "cities": []
     },
     {
       "iso": "PY",
@@ -2429,7 +2633,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "es-PY,gn",
-      "geonameid": "3437598"
+      "geonameid": "3437598",
+      "cities": []
     },
     {
       "iso": "QA",
@@ -2442,7 +2647,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "ar-QA,es",
-      "geonameid": "289688"
+      "geonameid": "289688",
+      "cities": []
     },
     {
       "iso": "RE",
@@ -2455,7 +2661,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^((97|98)(4|7|8)\\d{2})$",
       "languages": "fr-RE",
-      "geonameid": "935317"
+      "geonameid": "935317",
+      "cities": []
     },
     {
       "iso": "RO",
@@ -2468,7 +2675,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "ro,hu,rom",
-      "geonameid": "798549"
+      "geonameid": "798549",
+      "cities": []
     },
     {
       "iso": "RS",
@@ -2481,7 +2689,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "sr,hu,bs,rom",
-      "geonameid": "6290252"
+      "geonameid": "6290252",
+      "cities": []
     },
     {
       "iso": "RU",
@@ -2494,7 +2703,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "ru,tt,xal,cau,ady,kv,ce,tyv,cv,udm,tut,mns,bua,myv,mdf,chm,ba,inh,kbd,krc,av,sah,nog",
-      "geonameid": "2017370"
+      "geonameid": "2017370",
+      "cities": []
     },
     {
       "iso": "RW",
@@ -2507,7 +2717,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "rw,en-RW,fr-RW,sw",
-      "geonameid": "49518"
+      "geonameid": "49518",
+      "cities": []
     },
     {
       "iso": "SA",
@@ -2520,7 +2731,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "ar-SA",
-      "geonameid": "102358"
+      "geonameid": "102358",
+      "cities": []
     },
     {
       "iso": "SB",
@@ -2533,7 +2745,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-SB,tpi",
-      "geonameid": "2103350"
+      "geonameid": "2103350",
+      "cities": []
     },
     {
       "iso": "SC",
@@ -2546,7 +2759,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-SC,fr-SC",
-      "geonameid": "241170"
+      "geonameid": "241170",
+      "cities": []
     },
     {
       "iso": "SD",
@@ -2559,7 +2773,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "ar-SD,en,fia",
-      "geonameid": "366755"
+      "geonameid": "366755",
+      "cities": []
     },
     {
       "iso": "SS",
@@ -2572,7 +2787,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en",
-      "geonameid": "7909807"
+      "geonameid": "7909807",
+      "cities": []
     },
     {
       "iso": "SE",
@@ -2585,7 +2801,8 @@
       "postal_code_format": "### ##",
       "postal_code_regex": "^(?:SE)?\\d{3}\\s\\d{2}$",
       "languages": "sv-SE,se,sma,fi-SE",
-      "geonameid": "2661886"
+      "geonameid": "2661886",
+      "cities": []
     },
     {
       "iso": "SG",
@@ -2598,7 +2815,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "cmn,en-SG,ms-SG,ta-SG,zh-SG",
-      "geonameid": "1880251"
+      "geonameid": "1880251",
+      "cities": []
     },
     {
       "iso": "SH",
@@ -2611,7 +2829,8 @@
       "postal_code_format": "STHL 1ZZ",
       "postal_code_regex": "^(STHL1ZZ)$",
       "languages": "en-SH",
-      "geonameid": "3370751"
+      "geonameid": "3370751",
+      "cities": []
     },
     {
       "iso": "SI",
@@ -2624,7 +2843,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(?:SI)*(\\d{4})$",
       "languages": "sl,sh",
-      "geonameid": "3190538"
+      "geonameid": "3190538",
+      "cities": []
     },
     {
       "iso": "SJ",
@@ -2637,7 +2857,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "no,ru",
-      "geonameid": "607072"
+      "geonameid": "607072",
+      "cities": []
     },
     {
       "iso": "SK",
@@ -2650,7 +2871,8 @@
       "postal_code_format": "### ##",
       "postal_code_regex": "^\\d{3}\\s?\\d{2}$",
       "languages": "sk,hu",
-      "geonameid": "3057568"
+      "geonameid": "3057568",
+      "cities": []
     },
     {
       "iso": "SL",
@@ -2663,7 +2885,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-SL,men,tem",
-      "geonameid": "2403846"
+      "geonameid": "2403846",
+      "cities": []
     },
     {
       "iso": "SM",
@@ -2676,7 +2899,8 @@
       "postal_code_format": "4789#",
       "postal_code_regex": "^(4789\\d)$",
       "languages": "it-SM",
-      "geonameid": "3168068"
+      "geonameid": "3168068",
+      "cities": []
     },
     {
       "iso": "SN",
@@ -2689,7 +2913,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "fr-SN,wo,fuc,mnk",
-      "geonameid": "2245662"
+      "geonameid": "2245662",
+      "cities": []
     },
     {
       "iso": "SO",
@@ -2702,7 +2927,8 @@
       "postal_code_format": "@@  #####",
       "postal_code_regex": "^([A-Z]{2}\\d{5})$",
       "languages": "so-SO,ar-SO,it,en-SO",
-      "geonameid": "51537"
+      "geonameid": "51537",
+      "cities": []
     },
     {
       "iso": "SR",
@@ -2715,7 +2941,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "nl-SR,en,srn,hns,jv",
-      "geonameid": "3382998"
+      "geonameid": "3382998",
+      "cities": []
     },
     {
       "iso": "ST",
@@ -2728,7 +2955,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "pt-ST",
-      "geonameid": "2410758"
+      "geonameid": "2410758",
+      "cities": []
     },
     {
       "iso": "SV",
@@ -2741,7 +2969,8 @@
       "postal_code_format": "CP ####",
       "postal_code_regex": "^(?:CP)*(\\d{4})$",
       "languages": "es-SV",
-      "geonameid": "3585968"
+      "geonameid": "3585968",
+      "cities": []
     },
     {
       "iso": "SX",
@@ -2754,7 +2983,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "nl,en",
-      "geonameid": "7609695"
+      "geonameid": "7609695",
+      "cities": []
     },
     {
       "iso": "SY",
@@ -2767,7 +2997,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "ar-SY,ku,hy,arc,fr,en",
-      "geonameid": "163843"
+      "geonameid": "163843",
+      "cities": []
     },
     {
       "iso": "SZ",
@@ -2780,7 +3011,8 @@
       "postal_code_format": "@###",
       "postal_code_regex": "^([A-Z]\\d{3})$",
       "languages": "en-SZ,ss-SZ",
-      "geonameid": "934841"
+      "geonameid": "934841",
+      "cities": []
     },
     {
       "iso": "TC",
@@ -2793,7 +3025,8 @@
       "postal_code_format": "TKCA 1ZZ",
       "postal_code_regex": "^(TKCA 1ZZ)$",
       "languages": "en-TC",
-      "geonameid": "3576916"
+      "geonameid": "3576916",
+      "cities": []
     },
     {
       "iso": "TD",
@@ -2806,7 +3039,8 @@
       "postal_code_format": "TKCA 1ZZ",
       "postal_code_regex": "^(TKCA 1ZZ)$",
       "languages": "fr-TD,ar-TD,sre",
-      "geonameid": "2434508"
+      "geonameid": "2434508",
+      "cities": []
     },
     {
       "iso": "TF",
@@ -2819,7 +3053,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "fr",
-      "geonameid": "1546748"
+      "geonameid": "1546748",
+      "cities": []
     },
     {
       "iso": "TG",
@@ -2832,7 +3067,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "fr-TG,ee,hna,kbp,dag,ha",
-      "geonameid": "2363686"
+      "geonameid": "2363686",
+      "cities": []
     },
     {
       "iso": "TH",
@@ -2845,7 +3081,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "th,en",
-      "geonameid": "1605651"
+      "geonameid": "1605651",
+      "cities": []
     },
     {
       "iso": "TJ",
@@ -2858,7 +3095,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "tg,ru",
-      "geonameid": "1220409"
+      "geonameid": "1220409",
+      "cities": []
     },
     {
       "iso": "TK",
@@ -2871,7 +3109,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "tkl,en-TK",
-      "geonameid": "4031074"
+      "geonameid": "4031074",
+      "cities": []
     },
     {
       "iso": "TL",
@@ -2884,7 +3123,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "tet,pt-TL,id,en",
-      "geonameid": "1966436"
+      "geonameid": "1966436",
+      "cities": []
     },
     {
       "iso": "TM",
@@ -2897,7 +3137,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "tk,ru,uz",
-      "geonameid": "1218197"
+      "geonameid": "1218197",
+      "cities": []
     },
     {
       "iso": "TN",
@@ -2910,7 +3151,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "ar-TN,fr",
-      "geonameid": "2464461"
+      "geonameid": "2464461",
+      "cities": []
     },
     {
       "iso": "TO",
@@ -2923,20 +3165,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "to,en-TO",
-      "geonameid": "4032283"
-    },
-    {
-      "iso": "TR",
-      "iso3": "TUR",
-      "country": "Turkey",
-      "tld": ".tr",
-      "currency_code": "TRY",
-      "currency_name": "Lira",
-      "phone": "90",
-      "postal_code_format": "#####",
-      "postal_code_regex": "^(\\d{5})$",
-      "languages": "tr-TR,ku,diq,az,av",
-      "geonameid": "298795"
+      "geonameid": "4032283",
+      "cities": []
     },
     {
       "iso": "TT",
@@ -2949,7 +3179,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-TT,hns,fr,es,zh",
-      "geonameid": "3573591"
+      "geonameid": "3573591",
+      "cities": []
     },
     {
       "iso": "TV",
@@ -2962,7 +3193,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "tvl,en,sm,gil",
-      "geonameid": "2110297"
+      "geonameid": "2110297",
+      "cities": []
     },
     {
       "iso": "TW",
@@ -2975,7 +3207,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "zh-TW,zh,nan,hak",
-      "geonameid": "1668284"
+      "geonameid": "1668284",
+      "cities": []
     },
     {
       "iso": "TZ",
@@ -2988,7 +3221,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "sw-TZ,en,ar",
-      "geonameid": "149590"
+      "geonameid": "149590",
+      "cities": []
     },
     {
       "iso": "UA",
@@ -3001,7 +3235,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "uk,ru-UA,rom,pl,hu",
-      "geonameid": "690791"
+      "geonameid": "690791",
+      "cities": []
     },
     {
       "iso": "UG",
@@ -3014,7 +3249,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-UG,lg,sw,ar",
-      "geonameid": "226074"
+      "geonameid": "226074",
+      "cities": []
     },
     {
       "iso": "UM",
@@ -3027,7 +3263,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-UM",
-      "geonameid": "5854968"
+      "geonameid": "5854968",
+      "cities": []
     },
     {
       "iso": "US",
@@ -3040,7 +3277,8 @@
       "postal_code_format": "#####-####",
       "postal_code_regex": "^\\d{5}(-\\d{4})?$",
       "languages": "en-US,es-US,haw,fr",
-      "geonameid": "6252001"
+      "geonameid": "6252001",
+      "cities": []
     },
     {
       "iso": "UY",
@@ -3053,7 +3291,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "es-UY",
-      "geonameid": "3439705"
+      "geonameid": "3439705",
+      "cities": []
     },
     {
       "iso": "UZ",
@@ -3066,7 +3305,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "uz,ru,tg",
-      "geonameid": "1512440"
+      "geonameid": "1512440",
+      "cities": []
     },
     {
       "iso": "VA",
@@ -3079,7 +3319,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "la,it,fr",
-      "geonameid": "3164670"
+      "geonameid": "3164670",
+      "cities": []
     },
     {
       "iso": "VC",
@@ -3092,7 +3333,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-VC,fr",
-      "geonameid": "3577815"
+      "geonameid": "3577815",
+      "cities": []
     },
     {
       "iso": "VE",
@@ -3105,7 +3347,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "es-VE",
-      "geonameid": "3625428"
+      "geonameid": "3625428",
+      "cities": []
     },
     {
       "iso": "VG",
@@ -3118,7 +3361,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-VG",
-      "geonameid": "3577718"
+      "geonameid": "3577718",
+      "cities": []
     },
     {
       "iso": "VI",
@@ -3131,7 +3375,8 @@
       "postal_code_format": "#####-####",
       "postal_code_regex": "^008\\d{2}(?:-\\d{4})?$",
       "languages": "en-VI",
-      "geonameid": "4796775"
+      "geonameid": "4796775",
+      "cities": []
     },
     {
       "iso": "VN",
@@ -3144,7 +3389,8 @@
       "postal_code_format": "######",
       "postal_code_regex": "^(\\d{6})$",
       "languages": "vi,en,fr,zh,km",
-      "geonameid": "1562822"
+      "geonameid": "1562822",
+      "cities": []
     },
     {
       "iso": "VU",
@@ -3157,7 +3403,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "bi,en-VU,fr-VU",
-      "geonameid": "2134431"
+      "geonameid": "2134431",
+      "cities": []
     },
     {
       "iso": "WF",
@@ -3170,7 +3417,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(986\\d{2})$",
       "languages": "wls,fud,fr-WF",
-      "geonameid": "4034749"
+      "geonameid": "4034749",
+      "cities": []
     },
     {
       "iso": "WS",
@@ -3183,7 +3431,8 @@
       "postal_code_format": "AS 96799",
       "postal_code_regex": "AS 96799",
       "languages": "sm,en-WS",
-      "geonameid": "4034894"
+      "geonameid": "4034894",
+      "cities": []
     },
     {
       "iso": "YE",
@@ -3196,7 +3445,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "ar-YE",
-      "geonameid": "69543"
+      "geonameid": "69543",
+      "cities": []
     },
     {
       "iso": "YT",
@@ -3209,7 +3459,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "fr-YT",
-      "geonameid": "1024031"
+      "geonameid": "1024031",
+      "cities": []
     },
     {
       "iso": "ZA",
@@ -3222,7 +3473,8 @@
       "postal_code_format": "####",
       "postal_code_regex": "^(\\d{4})$",
       "languages": "zu,xh,af,nso,en-ZA,tn,st,ts,ss,ve,nr",
-      "geonameid": "953987"
+      "geonameid": "953987",
+      "cities": []
     },
     {
       "iso": "ZM",
@@ -3235,7 +3487,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "en-ZM,bem,loz,lun,lue,ny,toi",
-      "geonameid": "895949"
+      "geonameid": "895949",
+      "cities": []
     },
     {
       "iso": "ZW",
@@ -3248,7 +3501,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "en-ZW,sn,nr,nd",
-      "geonameid": "878675"
+      "geonameid": "878675",
+      "cities": []
     },
     {
       "iso": "CS",
@@ -3261,7 +3515,8 @@
       "postal_code_format": "#####",
       "postal_code_regex": "^(\\d{5})$",
       "languages": "cu,hu,sq,sr",
-      "geonameid": "8505033"
+      "geonameid": "8505033",
+      "cities": []
     },
     {
       "iso": "AN",
@@ -3274,7 +3529,8 @@
       "postal_code_format": "",
       "postal_code_regex": "",
       "languages": "nl-AN,en,es",
-      "geonameid": "8505032"
+      "geonameid": "8505032",
+      "cities": []
     }
   ]
 }

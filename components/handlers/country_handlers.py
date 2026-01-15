@@ -15,7 +15,7 @@ from ..data_handler import (
     update_country,
     delete_country,
 )
-from country_types import validate_country
+from country_types import validate_country, validate_country_unique
 
 
 def handle_list_countries():
@@ -48,7 +48,10 @@ def handle_list_countries():
 def handle_add_country():
     """Handle adding a new country."""
     print("\n--- Add New Country ---")
-    country_data = get_country_input()
+    
+    # Load countries for real-time validation
+    countries = list_countries()
+    country_data = get_country_input(countries=countries)
     
     is_valid, error = validate_country(country_data)
     if not is_valid:
@@ -78,7 +81,9 @@ def handle_edit_country():
     display_country_detail(country)
     
     print("\nEnter new values (press Enter to keep current):")
-    updated_data = get_country_input(existing=country)
+    # Load countries for real-time validation, exclude current country
+    countries = list_countries()
+    updated_data = get_country_input(existing=country, countries=countries, exclude_iso=iso)
     
     is_valid, error = validate_country(updated_data)
     if not is_valid:

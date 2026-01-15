@@ -62,4 +62,29 @@ def get_filterable_fields() -> List[tuple[str, str]]:
         ("currency_name", "Currency Name"),
         ("phone", "Phone Code"),
         ("languages", "Languages"),
+        ("cities", "Cities"),
     ]
+
+
+def filter_by_city(countries: List[dict], city_name: str) -> List[dict]:
+    """
+    Filter countries by city name.
+    
+    Args:
+        countries: List of country dictionaries
+        city_name: City name to search for (case-insensitive)
+        
+    Returns:
+        Filtered list of countries containing the city
+    """
+    city_lower = city_name.lower()
+    results = []
+    
+    for country in countries:
+        cities = country.get("cities", [])
+        for city in cities:
+            if city_lower in city.lower():
+                results.append(country)
+                break
+    
+    return results

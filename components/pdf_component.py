@@ -83,46 +83,53 @@ class CountryPDF(FPDF):
         self.cell(0, 10, "2. Country Registry", ln=True)
         self.ln(5)
         
-        # Table Header
-        self.set_font("Helvetica", "B", 9)
+        # Table Header - 7 columns (Cities will be on separate row)
+        self.set_font("Helvetica", "B", 8)
         self.set_fill_color(240, 240, 240)
         
-        # Adjusted widths for 7 columns
-        col_widths = [12, 12, 45, 20, 25, 20, 50]
+        col_widths = [12, 12, 50, 20, 25, 20, 44]
         headers = ["ISO", "ISO3", "Country", "Currency", "Phone", "TLD", "Languages"]
         
-        for i, header in enumerate(headers):
-            self.cell(col_widths[i], 8, header, border=1, align="C", fill=True)
-        self.ln()
+        def print_header():
+            self.set_font("Helvetica", "B", 8)
+            self.set_fill_color(240, 240, 240)
+            for i, header in enumerate(headers):
+                self.cell(col_widths[i], 8, header, border=1, align="C", fill=True)
+            self.ln()
+        
+        print_header()
         
         # Table Content
-        self.set_font("Helvetica", "", 8)
         for country in countries:
-             # Check for page break
-            if self.get_y() > 270:
+            # Check for page break (need space for main row + cities row)
+            if self.get_y() > 260:
                 self.add_page()
-                # Re-print header
-                self.set_font("Helvetica", "B", 9)
-                self.set_fill_color(240, 240, 240)
-                for i, header in enumerate(headers):
-                    self.cell(col_widths[i], 8, header, border=1, align="C", fill=True)
-                self.ln()
-                self.set_font("Helvetica", "", 8)
+                print_header()
 
+            self.set_font("Helvetica", "", 8)
             self.cell(col_widths[0], 7, str(country.get("iso", "")), border=1, align="C")
             self.cell(col_widths[1], 7, str(country.get("iso3", "")), border=1, align="C")
             
-            # Truncate to fit
-            name = str(country.get("country", ""))[:23]
+            name = str(country.get("country", ""))[:28]
             self.cell(col_widths[2], 7, name, border=1)
             
             self.cell(col_widths[3], 7, str(country.get("currency_code", "")), border=1, align="C")
-            self.cell(col_widths[4], 7, str(country.get("phone", "")), border=1, align="C")
+            self.cell(col_widths[4], 7, str(country.get("phone", ""))[:12], border=1, align="C")
             self.cell(col_widths[5], 7, str(country.get("tld", "")), border=1, align="C")
             
-            langs = str(country.get("languages", ""))[:30]
+            langs = str(country.get("languages", ""))[:25]
             self.cell(col_widths[6], 7, langs, border=1)
             self.ln()
+            
+            # Cities row - full width, no truncation
+            cities = country.get("cities", [])
+            if cities:
+                self.set_font("Helvetica", "I", 7)
+                self.set_fill_color(250, 250, 250)
+                cities_str = "Cities: " + ", ".join(cities)
+                total_width = sum(col_widths)
+                self.cell(total_width, 6, cities_str, border=1, fill=True)
+                self.ln()
 
 
 def generate_pdf(countries: List[dict], filename: str = "countries_report.pdf") -> tuple[bool, str]:
